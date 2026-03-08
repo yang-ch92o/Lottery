@@ -1,2 +1,70 @@
 fps = 60
-font = 'path/to/font'
+font = 'SourceHanSansCN-Medium.otf'
+touchscreen = true
+
+[balls]
+bg = '#ffe19a'
+icon = 'balls.png'
+ball-r = 3
+shake-delay = 2
+edge-color = '#222222'
+edge-width = 6
+font-size = 16
+text-offset = [0, -2]
+edge-offset = [-3, 1]
+dark-ball-colors = [
+    '#195eff',
+    '#ff3535',
+    '#e61de6',
+    '#e40072',
+    '#0b8200',
+    '#008a8a',
+    '#262626',
+    '#ff4800',
+    '#3e0095',
+    '#777777',
+    '#613d18',
+    '#a9008a',
+    '#553b1d',
+    '#23551d',
+    '#001b93',
+    '#3c0303',
+    '#0c4d59',
+    '#311344',
+]
+light-ball-colors = [
+    '#91b2ff',
+    '#ffd500',
+    '#ff9aff',
+    '#b68cff',
+    '#46ff46',
+    '#6bffff',
+    '#f3f3f3',
+    '#ff8400',
+    '#964bff',
+    '#888888',
+    '#1bff95',
+    '#f7ff81'
+]
+dark-ball-fg = '#ffffff'
+light-ball-fg = '#000000'
+min-chance = 0
+hole-space = 0.2
+hole-depth = 8.2
+floor-y = 12
+force = 80000
+ball-text-name = true
+ball-text-antialias = true
+ball-useimg = false
+ball-image = 'ball.png'
+ball-smooth = true
+win-text = '恭喜%s中奖！'
+winner-sep = '、'
+ball-onecolor = true
+title-bg = '#ffffff'
+title-fg = '#000000'
+title-font-size = 72
+title-edge = 28
+title-offset = [0, -10]
+default-resoulution = [800, 450]
+gravity = 10.0

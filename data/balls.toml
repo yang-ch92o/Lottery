@@ -3,7 +3,7 @@ bg = '#ffe19a'
 bg-img=''
 edge-color = '#222222'
 edge-width = 6
-font-size = 16
+font-size = 1.6
 text-offset = [0, -2]
 edge-offset = [-1.5, 1]
 dark-ball-colors = [
@@ -55,18 +55,22 @@ title-fg = '#000000'
 title-font-size = 72
 title-edge = 28
 title-offset = [0, -10]
-
+scale = 10.0
+ui-scale = 1.0
 # Hitting
 ball-r = 3  # Radius of ball
 ball-density=1
 ball-restitution=0.7 # Shouldn't over 1.0
 ball-friction=0.3
 shake-delay = 2  # Delay between shakes
+shake-time=240  # Time of shake
 hole-space = 0.2
 hole-depth = 6  # Depth of hole
 floor-y = 7  # Y position of floor
 slope=0.05  # Slope of the floor
+gravity = 10
 force = 80000  # Force
+throw-strength = 5000
 # Window
 default-resoulution = [800, 450]
 icon = 'balls.png'
